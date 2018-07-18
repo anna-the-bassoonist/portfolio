@@ -105,18 +105,17 @@ header#main-header > div.content > h2 {}
 
 /*Sekcja o mnie początek*/
 
-
 #about-me {
     background-color: #f9fcfe;
     display: block;
     position: relative;
     width: 100%;
     overflow: hidden;
-    
+
 }
 
 
-#about-me h2{
+#about-me h2 {
     color: black;
     font-weight: lighter;
     font-size: 2em;
@@ -128,13 +127,14 @@ header#main-header > div.content > h2 {}
 #about-me > h2 > span {
     color: green;
 }
+
 div.about-position {
     position: relative;
 }
 
 div.about-position > figure {
     background-color: reen;
-    display:block;
+    display: block;
     position: relative;
     margin-left: 4em;
     width: 30%;
@@ -145,8 +145,9 @@ div.about-position > figure {
 div.about-position > figure > img {
     max-width: 100%;
     padding: 10px;
-    
+
 }
+
 .about-content {
     display: inline-block;
     position: relative;
@@ -154,26 +155,114 @@ div.about-position > figure > img {
     right: 0;
     margin: 0 20px;
     padding: 0 20px;
-    
-   
-    
+
+
+
 }
+
 .about-content > p {
     color: black;
-     text-align: justify;
+    text-align: justify;
     padding-right: 20px;
-    
-    
+
+
 }
 
 /*sekcja o mnie koniec*/
 
 /*sekcja moje umiejętności start*/
 
+#umiejetnosci {
+    background-color: #f9fcfe;
+    display: block;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+#umiejetnosci > h2 {
+    color: black;
+    font-weight: lighter;
+    font-size: 2em;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+#umiejetnosci > h2 > span {
+    color: green;
+}
+
+#umiejetnosci > p {
+    color: black;
+    text-align: center;
+}
+
+figure.icons {
+    text-align: center;
+
+}
+
+figure.icons > img {
+    margin: 20px 40px;
+}
 
 
+/*koniec moje umiejetnosci*/
 
+/*start portfolio*/
 
+#moje-portfolio {
+    background-color: #f9fcfe;
+    display: block;
+    position: relative;
+    width: 100%;
+    /*    overflow: hidden;*/
+}
 
+#moje-portfolio > h2 {
+    color: black;
+    font-weight: lighter;
+    font-size: 2em;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
 
+#moje-portfolio > h2 > span {
+    color: green;
+}
 
+.portfolio {
+    width: 100%;
+/*    font-size: 0;*/
+    
+}
+
+.port-1 {
+    display: inline-block;
+    background-image: url(../img/portfolio1.jpg);
+    background-size: cover;
+    width: 33.3%;
+}
+
+.port-2 {
+    display: inline-block;
+    background-image: url(../img/portfolio2.jpg);
+    background-size: cover;
+    width: 33.3%;
+
+}
+
+.port-3 {
+    display: inline-block;
+    background-image: url(../img/portfolio4.jpg);
+    background-size: cover;
+    width: 33.3%;
+
+}
+
+.mask {
+    
+}
